@@ -1,0 +1,381 @@
+@media (width <= 992px) {
+    .navbar{
+
+        li{
+            margin-left: 10px;
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .main-section{
+
+        & .container{
+            padding-top: 220px;
+            & .main-subheading{
+                font-size: 30px;
+            }
+            & .main-heading{
+                font-size: 75px;
+                line-height: 80px;
+            }
+
+            & .main-para{
+                font-size: 20px;
+            }
+            & {
+                .main-btn{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .about-section{
+        padding: 70px 0px;
+
+        & .container{
+
+            & .col-lg-4{
+                align-items: center;
+            }
+
+            & .row1 {
+                margin-top: 30px;
+            }
+
+            & .mb-5 {
+                margin-bottom: 1rem !important;
+            }
+
+            & .col-lg-3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+
+    .portfolio-section{
+        & img{
+            width: 100%;
+        }
+    }
+
+    .faq-section{
+        & img{
+            width: 25%;
+        }
+    }
+}
+
+@media (width <= 768px) {
+
+    .section-title{
+        font-size: 19px;
+    }
+    .section-heading{
+        font-size: 27px;
+    }
+
+    .navbar{
+       & li {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            & a {
+                padding: 0px;
+            }
+        }
+
+        & .fa-bars{
+            color: white;
+        }
+
+        & button{
+            border: 1px solid white;
+        }
+        & .navbar-toggler:focus {
+            box-shadow: none
+        }
+
+        & img{
+            top: -20px;
+        }
+    }
+
+    .main-section{
+
+        & .container{
+
+            & .main-subheading{
+                font-size: 25px;
+            }
+    
+            & .main-heading{
+                font-size: 65px;
+                line-height: 70px;
+            }
+    
+            & .main-para{
+                font-size: 15px;
+            }
+
+            & .main-btn{
+                font-size: 13px;
+            }
+        }
+    }
+
+    .about-section{
+        & .about-container{
+
+            & .about-num{
+                width: 80px;
+                height: 80px;
+                font-size: 100px;
+            }
+
+            & .about-num-para{
+                font-size: 20px;
+                & span{
+                    font-size: 30px;
+                }
+            }
+
+            & .about-subheading{
+                font-size: 28px;
+                & span{
+                    font-size: 34px;
+                }
+            }
+        }
+    }
+
+    .do-section{
+        & .container{
+
+            & .fa-solid{
+                font-size: 25px;
+            }
+
+            & .do-subheading{
+                font-size: 24px;
+            }
+
+            & .col-lg-4{
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    .portfolio-section{
+        & .container{
+
+            & ul {
+                margin-top: 20px;
+                & li{
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+
+    .faq-section{
+
+        & .container{
+            & .faq-heading{
+                margin-bottom: 25px;
+                text-align: center;
+            }
+        }
+    }
+
+    .client-section{
+        & .container{
+
+            & .mt-5 {
+                margin-top: 1rem !important;
+            }
+        }
+    }
+
+    .footer-section{
+        & .container{
+            & .mb-5 {
+                margin-bottom: 1rem !important;
+            }
+
+            & .order-sm-2 {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (width <= 576px) {
+    .section-title {
+        font-size: 14px;
+    }
+    .section-heading {
+        font-size: 16px;
+        margin-top: 13px;
+    }
+    .navbar{
+
+        & img {
+            top: -12px;
+            width: 95px;
+        }
+
+        & li {
+           & a {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .main-section{
+        & .container {
+            padding-top: 195px;
+
+            & .main-subheading {
+                font-size: 20px;
+            }
+
+            & .main-heading {
+                font-size: 60px;
+                line-height: 65px;
+            }
+
+            & .arrow {
+                margin-top: 80px;
+            }
+        }
+    }
+
+    .about-section{
+        padding: 45px 0px;
+
+        & .about-container{
+
+            & .about-subheading{
+                font-size: 20px;
+                margin-bottom: 5px;
+                & span{
+                    font-size: 23px;
+                }
+            }
+
+            & .row1 {
+                margin-top: 15px;
+            }
+
+            & .about-para{
+                font-size: 15px;
+            }
+
+            & .about-num {
+                width: 65px;
+                height: 65px;
+                font-size: 85px;
+            }
+
+            & .about-num-para{
+                margin: 10px 0px;
+                font-size: 15px;
+                & span{
+                    font-size: 25px;
+                }
+            }
+
+            & .col-lg-3 {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .do-section{
+
+        & .container{
+
+            & .do-subheading {
+                font-size: 20px;
+            }
+
+            & .do-para{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .portfolio-section{
+        & .container{
+            & ul {
+                margin-top: 0px;
+
+                & li {
+                    margin-left: 10px;
+                    & a{
+                        font-size: 14px;
+                    }
+                }
+            }
+            & .mt-5 {
+                margin-top: 2rem !important;
+            }
+
+            & img {
+                width: 75%;
+            }
+        }
+    }
+
+    .hire-section{
+
+        & .container{
+            padding: 80px 0px;
+
+            & .hire-btn{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .faq-section {
+        padding: 25px 0px;
+
+        & .container{
+            & .faq-heading {
+                margin-bottom: 20px;
+            }
+
+            & .accordion-item{
+                & .accordion-button {
+                    font-size: 15px;
+                    padding: 12px 0px;
+                }
+            }
+        }
+    }
+
+    .copyright-section {
+        padding: 30px 0px;
+
+        & .container{
+            & .copyright-para1{
+                font-size: 14px;
+            }
+            & .copyright-para2{
+                font-size: 14px;
+
+                & span {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
